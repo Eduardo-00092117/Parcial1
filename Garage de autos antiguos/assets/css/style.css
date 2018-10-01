@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header > ul {
+    background: #2F2D2E;
+    display: flex;
+    color: #fff;
+    text-transform: uppercase;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+header li {
+    margin: 1.6em 2em;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    transition: 0.25s;
+    color: #a7a7a7;
+}
+
+header > div.head {
+    background-image:url(../img/fondo.jpg); 
+    background-position: 0em -8em;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 7.5em;
+}
+
+i {
+    color: #fff;
+}
+
+div.head > i {
+    font-size: 7em;
+    border: 3px solid #fff;
+    border-radius: 1em;
+    padding: 0.2em;
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color:#fff;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+div.head > p {
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    margin-bottom: 15em;
+    color: #fff;
+}
+
+article {
+    padding: 7.5em 15% 4em 15%;
+    text-align: center; 
+}
+
+.services {  
+    background-image: url(../img/fondon.jpg);
+    background-attachment: fixed;
+}
+
+hr {
+    width: 2em;
+    margin: 0 auto;
+    border: none;
+    padding: 0.1em;
+    margin-bottom: 1em;
+}
+
+.services > hr {
+    background: #fff;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+
+.services > h2 {
+    color: #fff;
+}
+
+.services > ul{
+    display: flex;
+    justify-content: center;
+}
+
+.services li {
+    width: 13%;
+    font-weight: 200;
+    font-size: 1em;
+    margin: 3em;
+    color: #fff;
+}
+
+h3 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 1.25em;
+    text-transform: uppercase;
+}
+
+.services i {
+    font-size: 2em;
+    border: 3px solid #fff;
+    border-radius: 5em;
+    padding: 0.8em;
+    margin-bottom: 1em;
+}
+
+.logros > hr {
+    background: #000;
+}
+
+.logros > p {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    background: #000;
+}
+
+.imagenes > div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.3333%;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 350px;
+    margin: 0;
+    position: relative;
+}
+
+.texto {
+    position: absolute;
+    visibility: hidden;
+    text-align: center;
+    width: 23.3%;
+    padding: 2em 0;
+    opacity: 1;
+}
+
+.texto > p {
+    color: #fff;
+    font-size: 1.3em; 
+    font-weight: 200;
+}
+
+.texto > h3 {
+    font-weight: 400;
+}
+
+.imagenes img:hover {
+    transition: 0.2s;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.imagenes > div:hover > .texto {
+    transition: 0.2s;
+    visibility: visible;
+}
+
+.nosotros {
+    background-image: url(../img/fondop.jpg);
+    background-attachment: fixed;
+    padding: 5em 33%;
+}
+
+.nosotros > div {
+    background: #fff;
+    padding: 4em 8em;
+    font-weight: 300;
+}
+
+.nosotros hr {
+    background: #000;
+}
+
+.imagen {
+    padding: 0;
+    background-image: url(../img/fondof.jpg);
+    background-attachment: fixed;
+    height: 50%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+footer {
+    background-image: url(../img/fondop.jpg);
+    background-attachment: fixed;
+}
+
+.footer1 {
+    text-align: center;
+    padding: 5em 0;
+    margin: 0 33%;
+}
+
+.encuentranos {
+    padding: 3em 0;
+}
+
+.encuentranos > hr {
+    background: #000;
+}
+
+.footer1 > img {
+    width: 40%;
+    margin: 0 auto 2em auto;
+}
+
+.footer1 > div {
+    background: #fff;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer2 {
+    background: #2F2D2E;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.footer2 > p {
+    margin: 1em 0;
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.9em;
+}
+
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.iconos > li > .fa-pinterest {
+    font-size: 2em;
+}
+
+.iconos > li > .fa-facebook-f {
+    color: #2F2D2E;
+    border: 0px solid;
+    border-radius: 2em;
+    background: #fff;
+    padding: 0.35em 0.6em;
+    font-size: 1.25em;
+}
+
+.iconos > li > .fa-instagram {
+    color: #2F2D2E;
+    border: 0px solid;
+    border-radius: 2em;
+    background: #fff;
+    padding: 0.2em 0.25em 0.25em 0.25em;
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 1680px){
+    .nosotros > div {
+        padding: 4em 2em;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    .imagenes > div {
+        width: 50%;
+    }
+
+    .texto {
+        width: 35%;
+    }
+
+    .nosotros {
+        padding: 5em 25%;
+    }
+
+    .footer1 {
+        margin: 0 25%;
+    }
+
+    .iconos {
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 860px){
+    .nosotros {
+        padding: 5em 15%;
+    }
+
+    .footer1 {
+        margin: 0 15%;
+    }
+
+    header li {
+        margin: 1.6em 1em;
+    }
+
+    .iconos {
+        width: 20%;
+    }
+
+    .imagenes > div {
+        width: 100%;
+        height: 400px;
+    }
+
+    .imagenes img {
+        height: 400px;
+    }
+
+    .texto {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .nosotros {
+        padding: 5em 5%;
+    }
+
+    .footer1 {
+        margin: 0 5%;
+    }
+}

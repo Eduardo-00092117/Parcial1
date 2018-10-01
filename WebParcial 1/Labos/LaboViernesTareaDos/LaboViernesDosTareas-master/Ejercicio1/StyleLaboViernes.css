@@ -1,0 +1,110 @@
+/*1. Cambiar color de fondo a la barra de navegación con el valor #2d3436 y margen inferior del 2%.
+*/
+#navs{
+    background: #2d3436;
+    margin: 2% auto;
+}
+/*0. Aplicar a todos los elementos el siguente estilo:
+    0.1 Quitar marges
+    0.2 Quitar padding
+    0.3 Agregar fuente : 'Roboto', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/* Aplicar a la clase "logo-container"*/
+.logo-container{
+    display: inline-block;
+    padding: 10px;
+}
+/*Aplicar a la etiqueta <ul> contenida en <nav>*/
+nav > ul{
+    display: inline-block;
+    padding: 20px;
+    margin-left: 5%;
+}
+/*Aplicar a las etiquetas <li> que se encuentran dentro de la etiqueta <ul> del literal anterior.*/
+ul > li {
+    display: inline-block;
+}
+/*Aplicar a todas las etiquetas <a> dentro de cada <li> de la barra de navegación.*/
+li > a{
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Aplicar al id main.*/
+#main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*Aplicar a los articulos margen general de 12px.*/
+article{
+    margin: 12px;
+}
+/*Aplicar a la imagen dentro de la etiqueta <figure> un ancho del 100%.*/
+figure > img{
+    width: 100%;
+}
+/*Aplicar a todas las etiquetas <figcaption>.*/
+figcaption{
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+/*Aplicar a todos los enlaces.*/
+a{
+    color:#0984e3;
+    font-weight: bold;
+    text-decoration: none; 
+}
+/*Aplicar a la etiqueta <figure>.*/
+figure{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+/*Aplicar al footer.*/
+footer{
+    background:#2d3436;
+    padding: 20px;
+    color: white; 
+}
+/*Aplicar a las etiquetas <label> vista en bloque y padding inferior y superior de 3px.*/
+label{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+/*Aplicar a la case section-footer.*/
+.section-footer{
+    display: inline-block;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+/*Quitar borde de etiqueta fieldset.*/
+fieldset{
+    border: 0;
+}
+/* Aplicar a los input de tipo email.*/
+input[type=email]{
+    padding: 7px;
+    border: 0;
+    border-radius: 4px;
+}
+/*Aplicar al boton submit:*/
+input[type=submit]{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    border: 0;
+    background: #d35400;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding-right: 10px;
+}
+/*Aplicar a todos los span dentro de las etiquetas label color de texto #d35400.*/
+label>span{
+    color: #d35400;
+}

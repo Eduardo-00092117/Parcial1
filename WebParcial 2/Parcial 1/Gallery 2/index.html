@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Galeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/icons.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav class="black">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">instrospect</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="sass.html">HOME</a></li>
+                    <li><a href="badges.html">GENERIC</a></li>
+                    <li><a href="badges.html">ELEMENTS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/galeria.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3>INTROSPECT: A FREE + FULLY RESPONSIVE</h3>
+                    <h3>SITE TEMPLATE BY TEMPLATED</h3>
+                    <a class="btn-flat b-galeria" href="#!">get started</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <h2>MAGNA ETIAM LOREM</h2>
+            <p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula.
+                Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan
+                quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget
+                arcu gravida tristique. Nunc iaculis mi in ante.</p>
+            <a class="btn-flat b-content" href="#!">get started</a>
+        </div>
+        <div class="row">
+            <div class="col s12 m6 l6">
+                <img src="img/pic01.jpg">
+                <p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin
+                    sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.
+                </p>
+            </div>
+            <div class="col s12 m6 l6 right">
+                <img src="img/pic02.jpg">
+                <p>
+                    Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin
+                    sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('.slider').slider({
+                indicators: false,
+                height: 500
+            });
+        });
+    </script>
+</body>
+
+</html>

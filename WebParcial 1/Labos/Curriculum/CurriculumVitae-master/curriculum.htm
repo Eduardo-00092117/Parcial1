@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Curriculum</title>
+
+    </head>
+    <body>
+        <h1><center>Curriculum Vitae</center> </h1>
+        <form action="#" method="GET">
+        <article>
+                <section>
+                <fieldset>
+                        <legend>Personal Data</legend>
+                        <div>
+                            <label for="duiVariable">DUI: </label>
+                            <input type="text" name="duiVariable" id="duiVariable" placeholder="048134128"pattern="[0-9]{8}-[0-9]{1}" required>
+
+                            <label for="firstName"> First Name: </label>
+                            <input type="text" name="firstName" id="firstName" placeholder="First Name" >
+
+                            <label for="lastName">Last Name: </label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Last Name" >
+
+                            <label for="radios">Gender: </label>
+                            <input type="radio" name="radios" id="radios" required>M 
+                            <input type="radio" name="radios" id="radios" required>F
+                            <div>
+                                <label for="contactNumber">Contact Number: </label>
+                                <input type="text" name="contactNumber" id="contactNumber"pattern="[0-9]{8}-[0-9]{1}">
+
+                                <label for="birth">Birthdate: </label>
+                                <input type="date" name="birth" id="birth" >
+
+                                <label for="civilStatus">Civil Status: </label>
+                                <select name="civilStatus">
+                                        <option value="civilStatus">Single</option>
+                                        <option value="civilStatus">Acompaniado</option>
+                                </select>
+
+                                <label for="choose">Image</label>
+                                <input type="file" name="choose" id="choose">
+                            </div>
+                        </div>
+                    </fieldset>
+            </section>
+        </article>
+        <br>
+        <br>
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Work Experience</legend>
+                    <label for="txtArea"></label>
+                    <textarea name="txtArea" id="txtArea" cols="255" rows="10" placeholder="Experience"></textarea>
+                </fieldset>
+            </section>
+        </article>
+        <br>
+        <br>
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Academic Training</legend>
+                    <label for="txtAreaDos"></label>
+                    <textarea name="txtAreaDos" id="txtAreaDos" cols="255" rows="10" placeholder="Academic Training"></textarea>
+                </fieldset>
+            </section>
+        </article>
+        <br>
+        <article>
+            <section>
+                <fieldset>
+                    <legend>Further Training</legend>
+                    <fieldset>
+                        <legend>Programming Languages</legend>
+                        <label for="checkVar"></label>
+                        <input type="checkbox" name="checkVar">Java
+                        <input type="checkbox" name="checkVar">C#
+                        <input type="checkbox" name="checkVar">c++
+                        <input type="checkbox" name="checkVar">Ruby
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Web Technologies</legend>
+                        <label for="checkVari"></label>
+                        <input type="checkbox" name="checkVari">HTML5
+                        <input type="checkbox" name="checkVari">CSS/CSS3
+                        <input type="checkbox" name="checkVari">Materialize Css
+                        <input type="checkbox" name="checkVari">Javascript
+                        <input type="checkbox" name="checkVari">Node.js
+                        <input type="checkbox" name="checkVari">Spring MVC
+                    </fieldset>
+                </fieldset>
+            </section>
+        </article>
+        <input type="submit" value="Send">
+        <input type="reset" value="Cancel">
+        </form>
+    </body>
+</html>

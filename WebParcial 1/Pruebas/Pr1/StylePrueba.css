@@ -1,0 +1,31 @@
+body{
+
+    width: 800px;
+    height: 800px;
+    background: #767DE4;
+    display: block;
+    margin: 20px auto;
+}
+#pantalla{
+    border: 5px solid black;
+    background: white;
+    width: 700px;
+    height: 800px;
+    padding: 25px;
+}
+#filtro{
+    float: right;
+    
+}
+#blogDiv{
+    padding: 70px 5px 5px;
+    font-size: 2em;
+    
+}
+
+#spam{
+    color: red;
+}
+h1{
+    font-family: 'Nanum Gothic', sans-serif;
+}

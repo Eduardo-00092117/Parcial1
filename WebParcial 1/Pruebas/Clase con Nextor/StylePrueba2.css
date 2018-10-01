@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+}
+.container{
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% ;
+    grid-template-rows: 20% 20% 20%;
+    grid-gap: 30px;/*Espacio en tra cada una*/
+}
+.header{
+    background-color: darkorange;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+.nav{
+    background-color: indianred;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.aside{
+    background-color: greenyellow;
+    display: flex;
+    align-content: flex-end;
+}
+.content{
+    background-color: khaki;
+    grid-column: 2/2;
+    grid-row: span 2/1;
+    
+}
+.footer{
+    background-color: firebrick;
+    grid-column: span 2;/*Para unir celdas*/
+    grid-row: span 2;
+}

@@ -1,0 +1,16 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+#cuadrito{
+    background: gray;/*HACE UN CUADRITO EN LA DIV*/
+    padding: 0.25em 0.25em 0.25em 0.25em;
+    border-left: 0.5em solid teal;/*UN borde de tanto a la izquierda del texto*/
+    box-shadow: 2px 2px 4px yellow;
+    margin: 0.25em 0;/*EL MARGEN, en este caso el espacio que quedara en cada div*/
+}
+
+#cuadrito:hover{/*PARA CUANDO SUCEDA UN EVENTO DEL MOUSE SE PONDRA NARANJA*/
+    border-left: red;
+    background: orange;
+}

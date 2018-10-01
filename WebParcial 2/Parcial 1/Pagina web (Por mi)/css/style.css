@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    background-color: #86D94C;
+    min-width: 360px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    height: 35em;
+    background: black;
+}
+
+header > img{
+    opacity: 0.5;
+}
+
+.header-content{
+    position: absolute;
+    color: white;
+    text-align: center;
+    line-height: 0.5;
+    letter-spacing: 1px;
+}
+
+header > div > h1{
+    font-size: 3em;
+}
+
+.articulo1{
+    
+}
+
+article > h2{
+    text-align: center;
+    background: grey;
+    padding: 5px;
+}

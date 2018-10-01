@@ -1,0 +1,44 @@
+body{
+    margin-bottom: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+table{
+    margin: 10px auto;
+    border: 2px solid black;
+    border-spacing: 0;
+}
+
+tr > td{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    align-content: center;
+    padding: 0;
+}
+
+table tr:nth-child(odd) td:nth-child(even),
+table tr:nth-child(even) td:nth-child(odd){
+  background: black;
+  color: white;
+}
+
+table tr:nth-child(n+7) td{
+  text-shadow: 1px 1px 1px white;
+}
+
+div{
+    height: 100%;
+    margin: 0;
+    visibility: hidden;
+    padding-top: 30%;
+}
+
+td:hover > div{
+    visibility: visible;
+    background: rgb(255,0,0,0.5)
+}

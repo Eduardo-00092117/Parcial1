@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/materialize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/icons.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/materialize.js"></script>
+</head>
+
+<body>
+    <!--Menu 100% responsive-->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+
+    <nav class="nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"><i class="material-icons">camera</i>Gallery</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active2"><a href="sass.html">Galery</a></li>
+                <li><a href="badges.html">Dark Theme</a></li>
+                <li><a href="collapsible.html">Blog</a></li>
+                <li><a href="Docs">Blog</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Features<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1>I MAKE THINGS</h1>
+            <p>portafolio</p>
+        </div>
+        <div class="nav-content">
+            <ul class="tabs tabs-transparent">
+                <li class="tab"><a href="#test1">All</a></li>
+                <li class="tab"><a href="#test2">Polygon</a></li>
+                <li class="tab"><a href="#test3">Big bang</a></li>
+                <li class="tab"><a href="#test4">Sacred Geometry</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html"><i class="material-icons">camera</i>Gallery</a></li>
+        <li><a href="badges.html"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
+        <li><a href="collapsible.html"><i class="material-icons">create</i>Blog</a></li>
+        <li><a href="collapsible.html"><i class="material-icons">school</i>Docs</a></li>
+        <li><a href="collapsible.html"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
+        <li><a href="collapsible.html"><i class="material-icons">compare_arrows</i>Horizontal Style</a></li>
+        <li><a href="collapsible.html"><i class="material-icons">texture</i>No Image Expand</a></li>
+    </ul>
+
+    <!--Contenido-->
+
+    <div id="test1" class="col s12">
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/bigbang1.png"></a>
+            <a class="carousel-item" href="#two!"><img src="img/geometric-aquamarine.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/geometric-sun.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="img/geometric-maze.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/geometric-cave.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/geometric-ice.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/geometric-grapefruit.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/bigbang3.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/bigbang2.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/sacredgeometry1.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/sacredgeometry2.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/sacredgeometry3.jpg"></a>
+        </div>
+    </div>
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test3" class="col s12">Test 3</div>
+    <div id="test4" class="col s12">Test 4</div>
+
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems, options);
+    });
+
+    $(document).ready(function () {
+        $('.sidenav').sidenav();
+    });
+
+    $(".dropdown-trigger").dropdown();
+
+    $(document).ready(function () {
+        $('.tabs').tabs();
+    });
+
+    $(document).ready(function () {
+        $('.carousel').carousel();
+    });
+
+</script>
+
+</html>

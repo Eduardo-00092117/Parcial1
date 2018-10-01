@@ -1,0 +1,14 @@
+.fondo{
+    background-image: url("img/forestTres.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    background-color: transparent;
+}
+.nav-wrapper{
+    position: fixed;
+}
+.hola{
+    padding: 5em;
+}

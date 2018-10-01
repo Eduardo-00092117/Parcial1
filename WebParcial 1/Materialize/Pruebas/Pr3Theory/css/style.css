@@ -1,0 +1,34 @@
+.logo{
+    background-image: url("img/fondo.jpg");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    color: white;
+}
+.nav-wrapper{
+    background-image: url("img/fondo.jpg");
+    color: white;
+}
+.heads{
+    padding: 8%;
+}
+nav .nav-wrapper{
+    height: 120%;
+}
+nav ul{
+    margin: 5%;
+}
+nav .brand-logo{
+    padding: 5%;
+}
+.sections{
+    display: flex; 
+}
+
+.sec-row{
+    margin: 3%;
+}
+.row .col.s5{
+    width: 32.667%;
+}
+

@@ -1,0 +1,53 @@
+body{
+    background: #f4f4f4;
+}
+
+.nav-content{
+    background-color: #ab47bc;
+}
+
+nav{
+    background-image: url("../img/fondo-nav.jpg");
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#dropdown1{
+    top: -64px;
+}
+
+.nav-content > ul > li:hover{
+    background: #9231a3;
+}
+
+@media only screen and (min-width: 992px) {
+    .brand-logo{
+        margin-left: 15%;
+    }
+
+    #nav-mobile{
+        margin-right: 15%;
+    }
+
+    .nav-content > ul{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header > h1{
+        font-size: 3em;
+    }
+}
+
+.header{
+    text-align: center;
+    line-height: 0.1;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.active2{
+    border-bottom: 2px solid white;
+}
+
